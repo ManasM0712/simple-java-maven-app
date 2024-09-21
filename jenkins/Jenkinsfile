@@ -22,5 +22,10 @@ pipeline {
                 echo "Delivered package"
             }
         }
+        stage('Complete') {
+            steps {               
+                echo "Build Completed"
+            }
+        }
     }
 }
