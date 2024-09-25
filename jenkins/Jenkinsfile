@@ -29,7 +29,7 @@ pipeline {
         }
         stage('CompleteNewPipeline') {
             steps {               
-                echo "Build Completed for NewPipeline"
+                echo "Build Completed for NewPipeline Update2"
             }
         }
     }
